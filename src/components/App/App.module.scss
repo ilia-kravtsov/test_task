@@ -1,0 +1,24 @@
+@import '../../style/sass/variables';
+@import '../../style/sass/mixin';
+
+.container {
+  width: 100vw;
+  background: #eff0f3;
+}
+
+.header {
+  height: 8vh;
+  background: #1b79ce;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.mainContainer {
+  @include flex(column, center, center);
+}
+
+.pageTitle {
+  margin: 20px 0;
+}
+

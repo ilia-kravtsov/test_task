@@ -1,0 +1,9 @@
+@import '../../style/sass/variables';
+@import '../../style/sass/mixin';
+
+.errorContainer {
+  @include flex(row, center, flex-start);
+  width: 1000px;
+  border: 1px solid red;
+  min-height: 70vh;
+}

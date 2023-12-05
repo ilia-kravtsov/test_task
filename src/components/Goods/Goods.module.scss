@@ -1,0 +1,57 @@
+@import '../../style/sass/variables';
+@import '../../style/sass/mixin';
+
+.goodsContainer {
+  @include flex(column, center, center);
+}
+
+.goodsList {
+  @include flex(row, center, flex-start);
+  width: 1000px;
+  min-height: 70vh;
+  padding: 10px;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.goodItem {
+  @include flex(column, center, center);
+  width: 250px;
+  margin: 10px;
+  box-shadow: 0 0 10px lightgrey;
+  padding: 10px;
+  gap: 10px;
+}
+
+.goodPhoto {
+  width: 236px;
+}
+
+.figure {
+  @include flex(column, center, center);
+}
+
+.figcaption {
+  @include flex(column, center, center);
+  background: darkgrey;
+  width: 236px;
+  padding: 10px;
+  margin-top: 10px;
+  color: white;
+}
+
+.description {
+  @include flex(row, center, center);
+  background: darkgrey;
+  width: 236px;
+  padding: 10px;
+  color: white;
+}
+
+.price {
+  @include flex(row, center, center);
+  background: darkgrey;
+  width: 236px;
+  padding: 10px;
+  color: white;
+}

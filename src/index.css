@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: Roboto sans-serif;
+}
+
+input,
+button,
+select,
+textarea,
+optgroup,
+option {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  color: inherit;
+}
+
+a:visited {
+  color: inherit;
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+body, h1, ul, li, figcaption, p, img {
+  margin: 0;
+  padding: 0;
+}
